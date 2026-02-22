@@ -1,12 +1,11 @@
 {
-  "name": "@rbxts/robloxgametemplate",
+  "name": "robloxgametemplate",
   "version": "1.0.0",
   "description": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-  "main": "out/init.lua",
+  "main": "index.js",
   "scripts": {
     "build": "rbxtsc",
-    "watch": "rbxtsc -w",
-    "prepublishOnly": "npm run build"
+    "watch": "rbxtsc -w"
   },
   "repository": {
     "type": "git",
@@ -20,14 +19,6 @@
     "url": "https://github.com/12354fdw/robloxgametemplate/issues"
   },
   "homepage": "https://github.com/12354fdw/robloxgametemplate#readme",
-  "types": "out/index.d.ts",
-  "files": [
-    "out",
-    "!**/*.tsbuildinfo"
-  ],
-  "publishConfig": {
-    "access": "public"
-  },
   "devDependencies": {
     "@rbxts/compiler-types": "^3.0.0-types.0",
     "@rbxts/types": "^1.0.908",
