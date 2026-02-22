@@ -1,0 +1,44 @@
+{
+  "name": "@rbxts/robloxgametemplate",
+  "version": "1.0.0",
+  "description": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "main": "out/init.lua",
+  "scripts": {
+    "build": "rbxtsc",
+    "watch": "rbxtsc -w",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/12354fdw/robloxgametemplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/12354fdw/robloxgametemplate/issues"
+  },
+  "homepage": "https://github.com/12354fdw/robloxgametemplate#readme",
+  "types": "out/index.d.ts",
+  "files": [
+    "out",
+    "!**/*.tsbuildinfo"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@rbxts/compiler-types": "^3.0.0-types.0",
+    "@rbxts/types": "^1.0.908",
+    "@typescript-eslint/eslint-plugin": "^8.56.0",
+    "@typescript-eslint/parser": "^8.56.0",
+    "eslint": "^10.0.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "eslint-plugin-roblox-ts": "^1.4.0",
+    "prettier": "^3.8.1",
+    "roblox-ts": "^3.0.0",
+    "typescript": "^5.9.3"
+  }
+}
